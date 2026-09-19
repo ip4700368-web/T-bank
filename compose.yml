@@ -1,0 +1,7 @@
+services:
+  array-dist:
+    build: .
+    ports:
+      - "7272:5000"
+    privileged: true
+    restart: unless-stopped
